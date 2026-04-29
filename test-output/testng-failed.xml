@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Final Automation Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="ProductNameToAdd" value="hp"/>
+  <parameter name="Searchquery" value="sony"/>
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" parallel="classes" name="Regression Testing(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mytesting.SeleniumFrameWorkPractice.BestSellerTest">
+        <methods>
+          <include name="CheckBestseller"/>
+        </methods>
+      </class> <!-- com.mytesting.SeleniumFrameWorkPractice.BestSellerTest -->
+      <class name="com.mytesting.SeleniumFrameWorkPractice.EmptyCart">
+        <methods>
+          <include name="removeItemsFromCart" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mytesting.SeleniumFrameWorkPractice.EmptyCart -->
+      <class name="com.mytesting.SeleniumFrameWorkPractice.AddToCart">
+        <methods>
+          <include name="addProductBySearch" invocation-numbers="0"/>
+          <include name="addProductToCartFromHomePage"/>
+        </methods>
+      </class> <!-- com.mytesting.SeleniumFrameWorkPractice.AddToCart -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Final Automation Suite] -->

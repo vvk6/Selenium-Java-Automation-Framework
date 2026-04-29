@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-19T07:10:36 IST" name="Final Automation Suite" finished-at="2026-01-19T07:11:42 IST" duration-ms="65247">
+    <groups>
+      <group name="Regression">
+        <method signature="AddToCart.addProductBySearch(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" name="addProductBySearch" class="com.mytesting.SeleniumFrameWorkPractice.AddToCart"/>
+        <method signature="AddToCart.addProductToCartFromHomePage()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" name="addProductToCartFromHomePage" class="com.mytesting.SeleniumFrameWorkPractice.AddToCart"/>
+        <method signature="BestSellerTest.CheckBestseller()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.BestSellerTest@179ece50]" name="CheckBestseller" class="com.mytesting.SeleniumFrameWorkPractice.BestSellerTest"/>
+        <method signature="EmptyCart.removeItemsFromCart(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.EmptyCart@3b0090a4]" name="removeItemsFromCart" class="com.mytesting.SeleniumFrameWorkPractice.EmptyCart"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="AddToCart.addProductToCartFromHomePage()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" name="addProductToCartFromHomePage" class="com.mytesting.SeleniumFrameWorkPractice.AddToCart"/>
+        <method signature="BestSellerTest.CheckBestseller()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.BestSellerTest@179ece50]" name="CheckBestseller" class="com.mytesting.SeleniumFrameWorkPractice.BestSellerTest"/>
+        <method signature="EmptyCart.removeItemsFromCart(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.EmptyCart@3b0090a4]" name="removeItemsFromCart" class="com.mytesting.SeleniumFrameWorkPractice.EmptyCart"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-01-19T07:10:36 IST" name="Regression Testing" finished-at="2026-01-19T07:11:42 IST" duration-ms="65247">
+      <class name="com.mytesting.SeleniumFrameWorkPractice.BestSellerTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.BestSellerTest@179ece50]" started-at="2026-01-19T07:10:36 IST" name="setup" finished-at="2026-01-19T07:10:40 IST" duration-ms="3785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckBestseller()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.BestSellerTest@179ece50]" started-at="2026-01-19T07:10:40 IST" name="CheckBestseller" finished-at="2026-01-19T07:10:54 IST" duration-ms="13680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBestseller -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.BestSellerTest@179ece50]" started-at="2026-01-19T07:10:54 IST" name="tearDown" finished-at="2026-01-19T07:10:54 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytesting.SeleniumFrameWorkPractice.BestSellerTest -->
+      <class name="com.mytesting.SeleniumFrameWorkPractice.AddToCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" started-at="2026-01-19T07:10:36 IST" name="setup" finished-at="2026-01-19T07:10:40 IST" duration-ms="3621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProductBySearch(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" started-at="2026-01-19T07:10:40 IST" name="addProductBySearch" finished-at="2026-01-19T07:11:17 IST" duration-ms="37047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sony]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductBySearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" started-at="2026-01-19T07:11:17 IST" name="tearDown" finished-at="2026-01-19T07:11:17 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" started-at="2026-01-19T07:11:17 IST" name="setup" finished-at="2026-01-19T07:11:19 IST" duration-ms="1097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProductToCartFromHomePage()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" started-at="2026-01-19T07:11:19 IST" name="addProductToCartFromHomePage" finished-at="2026-01-19T07:11:41 IST" duration-ms="22852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCartFromHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.AddToCart@34e9fd99]" started-at="2026-01-19T07:11:41 IST" name="tearDown" finished-at="2026-01-19T07:11:42 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytesting.SeleniumFrameWorkPractice.AddToCart -->
+      <class name="com.mytesting.SeleniumFrameWorkPractice.EmptyCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.EmptyCart@3b0090a4]" started-at="2026-01-19T07:10:36 IST" name="setup" finished-at="2026-01-19T07:10:40 IST" duration-ms="3780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeItemsFromCart(java.lang.String)[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.EmptyCart@3b0090a4]" started-at="2026-01-19T07:10:40 IST" name="removeItemsFromCart" finished-at="2026-01-19T07:11:15 IST" duration-ms="35226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemsFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytesting.SeleniumFrameWorkPractice.EmptyCart@3b0090a4]" started-at="2026-01-19T07:11:15 IST" name="tearDown" finished-at="2026-01-19T07:11:16 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytesting.SeleniumFrameWorkPractice.EmptyCart -->
+    </test> <!-- Regression Testing -->
+  </suite> <!-- Final Automation Suite -->
+</testng-results>
